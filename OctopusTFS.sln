@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B49893E6-7756-44FC-BCCE-32EC22C57FFB}"
+	ProjectSection(SolutionItems) = preProject
+		BuildTemplates\DefaultTemplate.11.1 - VersioningAndDeploy.xaml = BuildTemplates\DefaultTemplate.11.1 - VersioningAndDeploy.xaml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lib", "Lib", "{08A4A561-397D-4F51-A521-440B77FC2BF4}"
+	ProjectSection(SolutionItems) = preProject
+		Lib\TfsBuild.Versioning.Activities.dll = Lib\TfsBuild.Versioning.Activities.dll
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{08A4A561-397D-4F51-A521-440B77FC2BF4} = {B49893E6-7756-44FC-BCCE-32EC22C57FFB}
+	EndGlobalSection
+EndGlobal
